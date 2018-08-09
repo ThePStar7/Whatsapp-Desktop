@@ -4,9 +4,6 @@ WhatsApp desktop client, based on the official WhatsApp web app. Build with [Ele
 
 This is **NOT** an official product. This project does not attempt to reverse engineer the WhatsApp API or attempt to reimplement any part of the WhatsApp client. Any communication between the user and WhatsApp servers is handled by official WhatsApp Web itself; this is just a native wrapper for WhatsApp Web, like a browser.
 
-Thanks to **packagecloud** for providing us a repository at https://packagecloud.io/Enrico204/Whatsapp-Desktop
-[![packagecloud.io](https://packagecloud.io/images/packagecloud-badge.png "packagecloud.io")](https://packagecloud.io/)
-
 Original version of WhatsApp Desktop was written by @bcalik there: https://github.com/bcalik/Whatsapp-Desktop
 
 ## Features
@@ -31,11 +28,6 @@ Original version of WhatsApp Desktop was written by @bcalik there: https://githu
   * Set the size for the media thumbs
   * Proxy settings connect to WhatsApp web
 
-## Repositories
-
-Packagecloud provides us a repository at: https://packagecloud.io/Enrico204/Whatsapp-Desktop
-
-Note that these repos are available only for `amd64` (deb+rpm) and `armhf/armv7l` (deb-only).
 
 ### apt-based (like Debian, Ubuntu, Mint, ...)
 
@@ -85,9 +77,7 @@ A big thank you to @bil-elmoussaoui for maintaining ArchLinux package!
 
 ## Pre-built packages
 
-**DEB** and **RPM** packages for amd64 and armv7l (armhf) are also hosted in [latest release page](https://github.com/Enrico204/Whatsapp-Desktop/releases)
-
-For all other platforms: you can download ZIP files from [latest release page](https://github.com/Enrico204/Whatsapp-Desktop/releases).
+For all platforms: you can download ZIP files from [the latest release page](https://github.com/ThePStar7/Whatsapp-Desktop/releases).
 
 ## Screenshots
 

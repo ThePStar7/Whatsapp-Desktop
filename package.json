@@ -9,6 +9,7 @@
     "preinstall": "cd app && yarn",
     "gettext": "xgettext app/*.js -j --omit-header -o app/locale/messages.pot && xgettext app/html/*.html -L JavaScript -j --omit-header -o app/locale/messages.pot",
     "clean": "node clean.js",
+    "dist": "electron-builder --publish=always",
     "build:win": "electron-packager ./app \"WhatsApp\" --out=dist --package-manager=yarn --platform=win32 --arch=x64 --electron-version=1.7.8 --icon=assets/win/whatsapp.ico",
     "build:osx": "electron-packager ./app \"WhatsApp\" --out=dist --package-manager=yarn --platform=darwin --arch=x64 --electron-version=1.7.8 --icon=assets/osx/whatsapp.icns",
     "build:linux": "electron-packager ./app \"WhatsApp\" --out=dist --package-manager=yarn --platform=linux --arch=x64 --electron-version=1.7.8 --icon=assets/win/whatsapp.ico",
